@@ -8,8 +8,8 @@ attr_accessor :name, :genre
     @genre = genre
   end
 
-def new_song(song, genre)
-  artist.new(song, genre)
+def new_song(song,genre)
+  artist.new(song,genre)
 end 
   
 def artist
